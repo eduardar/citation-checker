@@ -1,24 +1,23 @@
 {
   "ex": {
     "question": "When was the Eiffel Tower built, how tall is it, and who designed it?",
-    "answer": "The Eiffel Tower was constructed between January 1887 and March 31, 1889, taking 2 years, 2 months and 5 days to complete [1] [2]. It was built as the centerpiece of the 1889 Exposition Universelle, the World's Fair celebrating the centenary of the French Revolution [3] [4].\n\nWhen completed, the tower stood 300 meters (984 feet) tall, making it the tallest man-made structure in the world for 41 years [5]. Today it measures 330 meters (1,083 feet) thanks to broadcast antennas that have been added over the years [6] [7].\n\nThe Eiffel Tower was designed and built by **Gustave Eiffel**, a French civil engineer. His company designed and constructed the tower and it was named in his honor [8] [9]. Eiffel personally led a group of government officials to the top of the tower on the day of completion, climbing the 1,710 steps since the lifts were not yet operational [10].\n\n---\n\nSource index:\n  [1] The birth of the Eiffel Tower - Official Eiffel Tower Website — https://toureiffel.paris/en/the-monument/history  (other)\n  [2] The Construction of the Eiffel Tower — Google Arts & Culture — https://artsandculture.google.com/story/the-construction-of-the-eiffel-tower-tour-eiffel/UgWBgIpO0RsA8A?hl=en  (other)\n  [3] Eiffel Tower key stats : the Tower in numbers — https://toureiffel.paris/en/the-monument/key-figures  (other)\n  [4] The Eiffel Tower was completed and dedicated on this day ... — https://facebook.com/libraryofcongress/posts/the-eiffel-tower-was-completed-and-dedicated-on-this-day-in-1889-it-was-built-to/1381798300659350  (other)\n  [5] Eiffel Tower height and dimensions – Eiffel Tower, Paris, France — https://theeiffeltower.net/eiffel-tower-height-and-dimensions  (other)\n  [6] From 300 to 330 meters : the story of the Tower’s height - The Eiffel Tower — https://toureiffel.paris/en/news/history-and-culture/300-330-meters-story-towers-height  (other)\n  [7] The Eiffel Tower's Height Compared To Other Iconic Structures - Explore — https://explore.com/1088063/the-eiffel-tower-and-the-other-tallest-structures-in-the-world  (other)\n  [8] Eiffel Tower | History, Height, & Facts | Britannica — https://britannica.com/topic/Eiffel-Tower-Paris-France  (other)\n  [9] Gustave Eiffel: Biography, Engineer, Designer of Eiffel Tower — https://biography.com/scientists/a45987857/gustave-eiffel  (other)\n  [10] Eiffel Tower - Wikipedia — https://en.wikipedia.org/wiki/Eiffel_Tower  (other)",
+    "answer": "The Eiffel Tower was constructed between January 26, 1887, and March 31, 1889, taking just 2 years, 2 months, and 5 days to complete [1] [2]. It was built for the 1889 Exposition Universelle in Paris, which celebrated the 100th anniversary of the French Revolution [3].\n\nThe Tower stands 330 meters (1,083 feet) tall when measured to the tip of its broadcast antennas [4] [5] [6]. The iron structure itself reaches 300 meters (984 feet), with the additional height coming from the antenna atop the tower [6] [7].\n\nThe Eiffel Tower was designed and built by Gustave Eiffel, a French civil engineer born Alexandre Gustave Eiffel (1832–1923) [8] [9]. While Eiffel is the namesake and oversaw the project, the original design was a collaborative effort: the tower's engineering plans were drawn up by Eiffel's company, with contributions from engineers Maurice Koechlin and Émile Nouguier and architect Stephen Sauvestre [6].\n\n---\n\nSource index:\n  [1] The birth of the Eiffel Tower - Official Eiffel Tower Website — https://toureiffel.paris/en/the-monument/history  (official)\n  [2] The Start of Something Big: Constructing the Eiffel Tower | Hagley — https://hagley.org/librarynews/start-something-big-constructing-eiffel-tower  (official)\n  [3] Eiffel Tower key stats : the Tower in numbers — https://toureiffel.paris/en/the-monument/key-figures  (official)\n  [4] How Tall Is the Eiffel Tower? — https://factually.co/fact-checks/science/how-tall-is-the-eiffel-tower-e44d45  (official)\n  [5] From 300 to 330 meters : the story of the Tower’s height - The Eiffel Tower — https://toureiffel.paris/en/news/history-and-culture/300-330-meters-story-towers-height  (official)\n  [6] Eiffel Tower | History, Height, & Facts | Britannica — https://britannica.com/topic/Eiffel-Tower-Paris-France  (official)\n  [7] How Tall Is the Eiffel Tower? Height, Floors & Steps — https://eiffel-tower.tours/blog/how-tall-is-the-eiffel-tower  (official)\n  [8] Gustave Eiffel - Wikipedia — https://en.wikipedia.org/wiki/Gustave_Eiffel  (other)\n  [9] Gustave Eiffel: Biography, Engineer, Designer of Eiffel Tower — https://biography.com/scientists/a45987857/gustave-eiffel  (other)",
     "sources": {
       "1": "https://toureiffel.paris/en/the-monument/history",
-      "2": "https://artsandculture.google.com/story/the-construction-of-the-eiffel-tower-tour-eiffel/UgWBgIpO0RsA8A?hl=en",
+      "2": "https://hagley.org/librarynews/start-something-big-constructing-eiffel-tower",
       "3": "https://toureiffel.paris/en/the-monument/key-figures",
-      "4": "https://facebook.com/libraryofcongress/posts/the-eiffel-tower-was-completed-and-dedicated-on-this-day-in-1889-it-was-built-to/1381798300659350",
-      "5": "https://theeiffeltower.net/eiffel-tower-height-and-dimensions",
-      "6": "https://toureiffel.paris/en/news/history-and-culture/300-330-meters-story-towers-height",
-      "7": "https://explore.com/1088063/the-eiffel-tower-and-the-other-tallest-structures-in-the-world",
-      "8": "https://britannica.com/topic/Eiffel-Tower-Paris-France",
-      "9": "https://biography.com/scientists/a45987857/gustave-eiffel",
-      "10": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+      "4": "https://factually.co/fact-checks/science/how-tall-is-the-eiffel-tower-e44d45",
+      "5": "https://toureiffel.paris/en/news/history-and-culture/300-330-meters-story-towers-height",
+      "6": "https://britannica.com/topic/Eiffel-Tower-Paris-France",
+      "7": "https://eiffel-tower.tours/blog/how-tall-is-the-eiffel-tower",
+      "8": "https://en.wikipedia.org/wiki/Gustave_Eiffel",
+      "9": "https://biography.com/scientists/a45987857/gustave-eiffel"
     },
-    "nimble_confidence": "medium",
+    "nimble_confidence": "high",
     "nimble_claims": [
       {
         "callout": "1",
-        "confidence": "medium",
+        "confidence": "high",
         "urls": [
           "https://toureiffel.paris/en/the-monument/history"
         ],
@@ -26,15 +25,15 @@
       },
       {
         "callout": "2",
-        "confidence": "medium",
+        "confidence": "high",
         "urls": [
-          "https://artsandculture.google.com/story/the-construction-of-the-eiffel-tower-tour-eiffel/UgWBgIpO0RsA8A?hl=en"
+          "https://hagley.org/librarynews/start-something-big-constructing-eiffel-tower"
         ],
         "excerpts": []
       },
       {
         "callout": "3",
-        "confidence": "medium",
+        "confidence": "high",
         "urls": [
           "https://toureiffel.paris/en/the-monument/key-figures"
         ],
@@ -42,33 +41,33 @@
       },
       {
         "callout": "4",
-        "confidence": "medium",
+        "confidence": "high",
         "urls": [
-          "https://facebook.com/libraryofcongress/posts/the-eiffel-tower-was-completed-and-dedicated-on-this-day-in-1889-it-was-built-to/1381798300659350"
+          "https://factually.co/fact-checks/science/how-tall-is-the-eiffel-tower-e44d45"
         ],
         "excerpts": []
       },
       {
         "callout": "5",
-        "confidence": "medium",
-        "urls": [
-          "https://theeiffeltower.net/eiffel-tower-height-and-dimensions"
-        ],
-        "excerpts": []
-      },
-      {
-        "callout": "6",
-        "confidence": "medium",
+        "confidence": "high",
         "urls": [
           "https://toureiffel.paris/en/news/history-and-culture/300-330-meters-story-towers-height"
         ],
         "excerpts": []
       },
       {
-        "callout": "7",
-        "confidence": "medium",
+        "callout": "6",
+        "confidence": "high",
         "urls": [
-          "https://explore.com/1088063/the-eiffel-tower-and-the-other-tallest-structures-in-the-world"
+          "https://britannica.com/topic/Eiffel-Tower-Paris-France"
+        ],
+        "excerpts": []
+      },
+      {
+        "callout": "7",
+        "confidence": "high",
+        "urls": [
+          "https://eiffel-tower.tours/blog/how-tall-is-the-eiffel-tower"
         ],
         "excerpts": []
       },
@@ -76,7 +75,7 @@
         "callout": "8",
         "confidence": "medium",
         "urls": [
-          "https://britannica.com/topic/Eiffel-Tower-Paris-France"
+          "https://en.wikipedia.org/wiki/Gustave_Eiffel"
         ],
         "excerpts": []
       },
@@ -87,28 +86,20 @@
           "https://biography.com/scientists/a45987857/gustave-eiffel"
         ],
         "excerpts": []
-      },
-      {
-        "callout": "10",
-        "confidence": "medium",
-        "urls": [
-          "https://en.wikipedia.org/wiki/Eiffel_Tower"
-        ],
-        "excerpts": []
       }
     ]
   },
   "results": [
     {
-      "claim": "The Eiffel Tower was constructed starting in January 1887.",
+      "claim": "The Eiffel Tower was constructed starting on January 26, 1887.",
       "citations": [
         "1",
         "2"
       ],
-      "sentence": "The Eiffel Tower was constructed between January 1887 and March 31, 1889, taking 2 years, 2 months and 5 days to complete [1] [2].",
+      "sentence": "The Eiffel Tower was constructed between January 26, 1887, and March 31, 1889, taking just 2 years, 2 months, and 5 days to complete [1] [2].",
       "verdict": "supported",
-      "evidence": "Construction work began in January 1887 and was finished on 31 March 1889.",
-      "reason": "The source explicitly states that construction work began in January 1887.",
+      "evidence": "On January 26, 1887, the first digging work began on the construction of what would become the Eiffel Tower.",
+      "reason": "The source explicitly states that the first digging work for the construction of the Eiffel Tower began on January 26, 1887.",
       "evidence_verified": true
     },
     {
@@ -117,115 +108,108 @@
         "1",
         "2"
       ],
-      "sentence": "The Eiffel Tower was constructed between January 1887 and March 31, 1889, taking 2 years, 2 months and 5 days to complete [1] [2].",
-      "verdict": "supported",
-      "evidence": "Construction work began in January 1887 and was finished on 31 March 1889.",
-      "reason": "The source explicitly states that the construction was finished on March 31, 1889.",
-      "evidence_verified": true
+      "sentence": "The Eiffel Tower was constructed between January 26, 1887, and March 31, 1889, taking just 2 years, 2 months, and 5 days to complete [1] [2].",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "reason": "The source states that construction took two years, two months, and five days starting from January 26, 1887, but it does not mention the specific completion date of March 31, 1889. (some cited pages could not be fetched)",
+      "evidence_verified": false,
+      "coherent": true,
+      "implied_verdict": "not_found"
     },
     {
-      "claim": "The construction of the Eiffel Tower took 2 years, 2 months and 5 days to complete.",
+      "claim": "The construction of the Eiffel Tower took just 2 years, 2 months, and 5 days to complete.",
       "citations": [
         "1",
         "2"
       ],
-      "sentence": "The Eiffel Tower was constructed between January 1887 and March 31, 1889, taking 2 years, 2 months and 5 days to complete [1] [2].",
+      "sentence": "The Eiffel Tower was constructed between January 26, 1887, and March 31, 1889, taking just 2 years, 2 months, and 5 days to complete [1] [2].",
       "verdict": "supported",
-      "evidence": "It took just two years, two months and five days to build the Eiffel Tower.",
-      "reason": "The source explicitly states that the construction of the Eiffel Tower took two years, two months, and five days.",
+      "evidence": "It would take two years, two months, and five days before the massive structure was complete.",
+      "reason": "The source explicitly states that it took two years, two months, and five days to complete the Eiffel Tower.",
       "evidence_verified": true
     },
     {
-      "claim": "The Eiffel Tower was built as the centerpiece of the 1889 Exposition Universelle.",
+      "claim": "The Eiffel Tower was built for the 1889 Exposition Universelle in Paris.",
       "citations": [
-        "3",
-        "4"
+        "3"
       ],
-      "sentence": "It was built as the centerpiece of the 1889 Exposition Universelle, the World's Fair celebrating the centenary of the French Revolution [3] [4].",
+      "sentence": "It was built for the 1889 Exposition Universelle in Paris, which celebrated the 100th anniversary of the French Revolution [3].",
       "verdict": "unverifiable",
       "evidence": "",
       "reason": "Cited page(s) could not be fetched properly",
       "evidence_verified": false
     },
     {
-      "claim": "The 1889 Exposition Universelle was the World's Fair celebrating the centenary of the French Revolution.",
+      "claim": "The 1889 Exposition Universelle in Paris celebrated the 100th anniversary of the French Revolution.",
       "citations": [
-        "3",
-        "4"
+        "3"
       ],
-      "sentence": "It was built as the centerpiece of the 1889 Exposition Universelle, the World's Fair celebrating the centenary of the French Revolution [3] [4].",
+      "sentence": "It was built for the 1889 Exposition Universelle in Paris, which celebrated the 100th anniversary of the French Revolution [3].",
       "verdict": "unverifiable",
       "evidence": "",
       "reason": "Cited page(s) could not be fetched properly",
       "evidence_verified": false
     },
     {
-      "claim": "When completed, the Eiffel Tower stood 300 meters tall.",
+      "claim": "The Eiffel Tower stands 330 meters tall when measured to the tip of its broadcast antennas.",
       "citations": [
-        "5"
+        "4",
+        "5",
+        "6"
       ],
-      "sentence": "When completed, the tower stood 300 meters (984 feet) tall, making it the tallest man-made structure in the world for 41 years [5].",
-      "verdict": "supported",
-      "evidence": "When it was completed in 1889 for the Exposition Universelle (World’s Fair), the Eiffel Tower reached a height of 300 meters (984 feet), making it the tallest man-made structure on Earth for 41 years until the Chrysler Building in New York overtook it in 1930.",
-      "reason": "The source explicitly states that the tower reached a height of 300 meters when it was completed in 1889.",
-      "evidence_verified": true
+      "sentence": "The Tower stands 330 meters (1,083 feet) tall when measured to the tip of its broadcast antennas [4] [5] [6].",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "reason": "Cited page(s) could not be fetched properly",
+      "evidence_verified": false
     },
     {
-      "claim": "When completed, the Eiffel Tower stood 984 feet tall.",
+      "claim": "The Eiffel Tower stands 1,083 feet tall when measured to the tip of its broadcast antennas.",
       "citations": [
-        "5"
+        "4",
+        "5",
+        "6"
       ],
-      "sentence": "When completed, the tower stood 300 meters (984 feet) tall, making it the tallest man-made structure in the world for 41 years [5].",
-      "verdict": "supported",
-      "evidence": "When it was completed in 1889 for the Exposition Universelle (World’s Fair), the Eiffel Tower reached a height of 300 meters (984 feet), making it the tallest man-made structure on Earth for 41 years until the Chrysler Building in New York overtook it in 1930.",
-      "reason": "The source explicitly states that the Eiffel Tower reached a height of 300 meters (984 feet) when it was completed in 1889.",
-      "evidence_verified": true
+      "sentence": "The Tower stands 330 meters (1,083 feet) tall when measured to the tip of its broadcast antennas [4] [5] [6].",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "reason": "Cited page(s) could not be fetched properly",
+      "evidence_verified": false
     },
     {
-      "claim": "The Eiffel Tower was the tallest man-made structure in the world for 41 years.",
-      "citations": [
-        "5"
-      ],
-      "sentence": "When completed, the tower stood 300 meters (984 feet) tall, making it the tallest man-made structure in the world for 41 years [5].",
-      "verdict": "supported",
-      "evidence": "When it was completed in 1889 for the Exposition Universelle (World’s Fair), the Eiffel Tower reached a height of 300 meters (984 feet), making it the tallest man-made structure on Earth for 41 years until the Chrysler Building in New York overtook it in 1930.",
-      "reason": "The source explicitly states that the Eiffel Tower was the tallest man-made structure on Earth for 41 years.",
-      "evidence_verified": true
-    },
-    {
-      "claim": "Today the Eiffel Tower measures 330 meters.",
+      "claim": "The iron structure of the Eiffel Tower itself reaches 300 meters.",
       "citations": [
         "6",
         "7"
       ],
-      "sentence": "Today it measures 330 meters (1,083 feet) thanks to broadcast antennas that have been added over the years [6] [7].",
+      "sentence": "The iron structure itself reaches 300 meters (984 feet), with the additional height coming from the antenna atop the tower [6] [7].",
       "verdict": "supported",
-      "evidence": "Today, it measures 330 meters (1,082 feet) thanks to a series of broadcast antennas tacked on over the years.",
-      "reason": "The source explicitly states that the Eiffel Tower measures 330 meters today.",
+      "evidence": "The iron structure itself reaches 300 meters, or 984 feet.",
+      "reason": "The source explicitly states that the iron structure itself reaches 300 meters.",
       "evidence_verified": true
     },
     {
-      "claim": "Today the Eiffel Tower measures 1,083 feet.",
+      "claim": "The iron structure of the Eiffel Tower itself reaches 984 feet.",
       "citations": [
         "6",
         "7"
       ],
-      "sentence": "Today it measures 330 meters (1,083 feet) thanks to broadcast antennas that have been added over the years [6] [7].",
-      "verdict": "contradicted",
-      "evidence": "Today, it measures 330 meters (1,082 feet) thanks to a series of broadcast antennas tacked on over the years.",
-      "reason": "The source states that the Eiffel Tower measures 1,082 feet today, not 1,083 feet.",
+      "sentence": "The iron structure itself reaches 300 meters (984 feet), with the additional height coming from the antenna atop the tower [6] [7].",
+      "verdict": "supported",
+      "evidence": "The iron structure itself reaches 300 meters, or 984 feet.",
+      "reason": "The source explicitly states that the iron structure itself reaches 984 feet.",
       "evidence_verified": true
     },
     {
-      "claim": "Broadcast antennas have been added to the Eiffel Tower over the years.",
+      "claim": "Additional height of the Eiffel Tower comes from the antenna atop the tower.",
       "citations": [
         "6",
         "7"
       ],
-      "sentence": "Today it measures 330 meters (1,083 feet) thanks to broadcast antennas that have been added over the years [6] [7].",
+      "sentence": "The iron structure itself reaches 300 meters (984 feet), with the additional height coming from the antenna atop the tower [6] [7].",
       "verdict": "supported",
-      "evidence": "Today, it measures 330 meters (1,082 feet) thanks to a series of broadcast antennas tacked on over the years.",
-      "reason": "The source explicitly states that broadcast antennas have been added to the Eiffel Tower over the years.",
+      "evidence": "The Eiffel Tower is 330 meters, or 1,083 feet, tall from the ground to the tip of its current antenna. The iron structure itself reaches 300 meters, or 984 feet.",
+      "reason": "The source states that the iron structure reaches 300 meters and the total height including the antenna reaches 330 meters, meaning the 30-meter difference is due to the antenna.",
       "evidence_verified": true
     },
     {
@@ -234,80 +218,114 @@
         "8",
         "9"
       ],
-      "sentence": "The Eiffel Tower was designed and built by **Gustave Eiffel**, a French civil engineer. His company designed and constructed the tower and it was named in his honor [8] [9].",
+      "sentence": "The Eiffel Tower was designed and built by Gustave Eiffel, a French civil engineer born Alexandre Gustave Eiffel (1832–1923) [8] [9].",
       "verdict": "partial",
-      "evidence": "Soon thereafter, he began work on what would become known as the Eiffel Tower, the structure that would cement his name in history.",
-      "reason": "The source states that Eiffel began work on the tower, but it does not explicitly state that he both designed and built it entirely by himself.",
-      "evidence_verified": true
+      "evidence": "He is best known for the Eiffel Tower, designed by his company and built for the 1889 Universal Exposition in Paris",
+      "reason": "The source states that the Eiffel Tower was designed by his company and originated by Maurice Koechlin and Emile Nouguier, rather than stating that Gustave Eiffel personally designed and built it by himself.",
+      "evidence_verified": true,
+      "coherent": true,
+      "implied_verdict": "partial"
     },
     {
-      "claim": "Gustave Eiffel is a French civil engineer.",
+      "claim": "Gustave Eiffel was a French civil engineer born Alexandre Gustave Eiffel.",
       "citations": [
         "8",
         "9"
       ],
-      "sentence": "The Eiffel Tower was designed and built by **Gustave Eiffel**, a French civil engineer. His company designed and constructed the tower and it was named in his honor [8] [9].",
-      "verdict": "partial",
-      "evidence": "In 1879, the chief engineer on the Statue of Liberty died and Eiffel was hired to replace him, going on to design the metallic skeleton of the structure.",
-      "reason": "The source mentions Eiffel acting as an engineer and working on structures, but it does not explicitly state that his profession or nationality is a \"French civil engineer\" (though it mentions he was born in France and worked as an engineer).",
+      "sentence": "The Eiffel Tower was designed and built by Gustave Eiffel, a French civil engineer born Alexandre Gustave Eiffel (1832–1923) [8] [9].",
+      "verdict": "supported",
+      "evidence": "Alexandre Gustave Eiffel (/ˈaɪfəl/ ⓘ EYE-fəl; French: [alɛksɑ̃dʁ ɡystav ɛfɛl]; né Bonickhausen dit Eiffel;[5] 15 December 1832 – 27 December 1923) was a French civil engineer.",
+      "reason": "The source explicitly states that Gustave Eiffel was a French civil engineer and that his full name was Alexandre Gustave Eiffel.",
       "evidence_verified": true
     },
     {
-      "claim": "Gustave Eiffel's company designed and constructed the Eiffel Tower.",
+      "claim": "Gustave Eiffel lived from 1832 to 1923.",
       "citations": [
         "8",
         "9"
       ],
-      "sentence": "The Eiffel Tower was designed and built by **Gustave Eiffel**, a French civil engineer. His company designed and constructed the tower and it was named in his honor [8] [9].",
-      "verdict": "partial",
-      "evidence": "Soon thereafter, he began work on what would become known as the Eiffel Tower, the structure that would cement his name in history.",
-      "reason": "The source states that Eiffel began work on the tower, but it does not explicitly mention his company designing and constructing it.",
+      "sentence": "The Eiffel Tower was designed and built by Gustave Eiffel, a French civil engineer born Alexandre Gustave Eiffel (1832–1923) [8] [9].",
+      "verdict": "supported",
+      "evidence": "Born | 15 December 1832",
+      "reason": "The source explicitly states that Gustave Eiffel was born on 15 December 1832 and died on 27 December 1923.",
       "evidence_verified": true
     },
     {
-      "claim": "The Eiffel Tower was named in honor of Gustave Eiffel.",
+      "claim": "Gustave Eiffel is the namesake of the Eiffel Tower.",
       "citations": [
-        "8",
-        "9"
+        "6"
       ],
-      "sentence": "The Eiffel Tower was designed and built by **Gustave Eiffel**, a French civil engineer. His company designed and constructed the tower and it was named in his honor [8] [9].",
+      "sentence": "While Eiffel is the namesake and oversaw the project, the original design was a collaborative effort: the tower's engineering plans were drawn up by Eiffel's company, with contributions from engineers Maurice Koechlin and Émile Nouguier and architect Stephen Sauvestre [6].",
       "verdict": "unverifiable",
       "evidence": "",
-      "reason": "The source states that the tower became known as the Eiffel Tower, but it does not mention that it was specifically named in honor of Gustave Eiffel. (some cited pages could not be fetched)",
+      "reason": "Cited page(s) could not be fetched properly",
       "evidence_verified": false
     },
     {
-      "claim": "Gustave Eiffel personally led a group of government officials to the top of the Eiffel Tower on the day of completion.",
+      "claim": "Gustave Eiffel oversaw the Eiffel Tower project.",
       "citations": [
-        "10"
+        "6"
       ],
-      "sentence": "Eiffel personally led a group of government officials to the top of the tower on the day of completion, climbing the 1,710 steps since the lifts were not yet operational [10].",
-      "verdict": "supported",
-      "evidence": "The main structural work was completed at the end of March 1889 and, on 31 March, Eiffel celebrated by leading a group of government officials, accompanied by representatives of the press, to the top of the tower.",
-      "reason": "The source explicitly states that on 31 March (the day the main structural work was completed), Gustave Eiffel led a group of government officials and press representatives to the top of the tower.",
-      "evidence_verified": true
+      "sentence": "While Eiffel is the namesake and oversaw the project, the original design was a collaborative effort: the tower's engineering plans were drawn up by Eiffel's company, with contributions from engineers Maurice Koechlin and Émile Nouguier and architect Stephen Sauvestre [6].",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "reason": "Cited page(s) could not be fetched properly",
+      "evidence_verified": false
     },
     {
-      "claim": "Gustave Eiffel climbed the 1,710 steps of the Eiffel Tower on the day of completion.",
+      "claim": "The original design of the Eiffel Tower was a collaborative effort.",
       "citations": [
-        "10"
+        "6"
       ],
-      "sentence": "Eiffel personally led a group of government officials to the top of the tower on the day of completion, climbing the 1,710 steps since the lifts were not yet operational [10].",
-      "verdict": "contradicted",
-      "evidence": "nearly 30,000 visitors made the 1,710-step climb to the top before the lifts entered service on 26 May.",
-      "reason": "The source states that visitors made the 1,710-step climb before the lifts entered service, while Gustave Eiffel climbed the tower on the day of its completion (31 March 1889) because the lifts were not yet in operation.",
-      "evidence_verified": true
+      "sentence": "While Eiffel is the namesake and oversaw the project, the original design was a collaborative effort: the tower's engineering plans were drawn up by Eiffel's company, with contributions from engineers Maurice Koechlin and Émile Nouguier and architect Stephen Sauvestre [6].",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "reason": "Cited page(s) could not be fetched properly",
+      "evidence_verified": false
     },
     {
-      "claim": "The lifts of the Eiffel Tower were not yet operational on the day of completion.",
+      "claim": "The Eiffel Tower's engineering plans were drawn up by Gustave Eiffel's company.",
       "citations": [
-        "10"
+        "6"
       ],
-      "sentence": "Eiffel personally led a group of government officials to the top of the tower on the day of completion, climbing the 1,710 steps since the lifts were not yet operational [10].",
-      "verdict": "supported",
-      "evidence": "Because the lifts were not yet in operation, the ascent was made by foot, and took over an hour, with Eiffel stopping frequently to explain various features.",
-      "reason": "The source explicitly states that the lifts were not yet in operation on the day of the completion/celebration led by Eiffel.",
-      "evidence_verified": true
+      "sentence": "While Eiffel is the namesake and oversaw the project, the original design was a collaborative effort: the tower's engineering plans were drawn up by Eiffel's company, with contributions from engineers Maurice Koechlin and Émile Nouguier and architect Stephen Sauvestre [6].",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "reason": "Cited page(s) could not be fetched properly",
+      "evidence_verified": false
+    },
+    {
+      "claim": "Engineer Maurice Koechlin contributed to the Eiffel Tower.",
+      "citations": [
+        "6"
+      ],
+      "sentence": "While Eiffel is the namesake and oversaw the project, the original design was a collaborative effort: the tower's engineering plans were drawn up by Eiffel's company, with contributions from engineers Maurice Koechlin and Émile Nouguier and architect Stephen Sauvestre [6].",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "reason": "Cited page(s) could not be fetched properly",
+      "evidence_verified": false
+    },
+    {
+      "claim": "Engineer Émile Nouguier contributed to the Eiffel Tower.",
+      "citations": [
+        "6"
+      ],
+      "sentence": "While Eiffel is the namesake and oversaw the project, the original design was a collaborative effort: the tower's engineering plans were drawn up by Eiffel's company, with contributions from engineers Maurice Koechlin and Émile Nouguier and architect Stephen Sauvestre [6].",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "reason": "Cited page(s) could not be fetched properly",
+      "evidence_verified": false
+    },
+    {
+      "claim": "Architect Stephen Sauvestre contributed to the Eiffel Tower.",
+      "citations": [
+        "6"
+      ],
+      "sentence": "While Eiffel is the namesake and oversaw the project, the original design was a collaborative effort: the tower's engineering plans were drawn up by Eiffel's company, with contributions from engineers Maurice Koechlin and Émile Nouguier and architect Stephen Sauvestre [6].",
+      "verdict": "unverifiable",
+      "evidence": "",
+      "reason": "Cited page(s) could not be fetched properly",
+      "evidence_verified": false
     }
   ]
 }

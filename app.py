@@ -29,7 +29,7 @@ def show(results, nimble_conf=None):
                 st.markdown(f"> {r['evidence']}{flag}")
             st.caption(r.get("reason", ""))
             if r.get("coherent") is False:
-                st.warning(f"⚠️ Verdict inconsistent with its own reasoning: the reasoning implies **{r['implied_verdict']}**")
+                st.warning(f"⚠️ Needs review: the verdict and its own reasoning disagree (reasoning suggests **{r['implied_verdict']}**)")
 
 mode = st.radio("Mode", ["Ask a Nimble agent", "Check a pasted answer", "Load saved demo run"],
                 horizontal=True)

@@ -1,4 +1,4 @@
-from llm import ask_json, FAST_MODEL
+from llm import ask_json, ask_json_other, FAST_MODEL, CHECKER_MODEL
 
 PROMPT = """You check whether a SOURCE supports a CLAIM.
 Use ONLY the source text. Never use your own knowledge, even if you know the answer.
@@ -29,10 +29,11 @@ REASON: {reason}"""
 def check_coherence(r: dict) -> dict:
     if r["verdict"] in ("supported", "unverifiable", "no_citation"):
         return r
-    out = ask_json(COHERENCE_PROMPT.format(claim=r["claim"], verdict=r["verdict"],
-                                           reason=r.get("reason", "")))
+    out = ask_json_other(COHERENCE_PROMPT.format(claim=r["claim"], verdict=r["verdict"],
+                                                 reason=r.get("reason", "")))
     r["coherent"] = bool(out.get("consistent", True))
     r["implied_verdict"] = out.get("implied_verdict", r["verdict"])
+    r["checker_model"] = CHECKER_MODEL
     return r
 
 def judge(claim: str, source_text: str, prompt: str = PROMPT, model: str = FAST_MODEL) -> dict:
