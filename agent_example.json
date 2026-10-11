@@ -1,0 +1,90 @@
+{
+  "question": "When was the Eiffel Tower built, how tall is it, and who designed it?",
+  "answer": "# The Eiffel Tower: Construction, Height, and Design\n\n## When It Was Built\n\nConstruction of the Eiffel Tower began on **January 26, 1887**, and was completed on **March 31, 1889** [1] [2]. The project took just **2 years, 2 months, and 5 days** [2]. It was inaugurated on May 15, 1889, in time for the Exposition Universelle (World's Fair) held in Paris that year, and opened to the public shortly after [3] [1].\n\n## How Tall It Is\n\nThe Eiffel Tower stands at **330 meters (1,083 feet)** tall including its broadcast antenna [4] [5]. The main iron structure itself is **300 meters** tall, with the broadcast antennas bringing the total to its current height of 330 m [6]. This 330-meter height was reached on March 15, 2022, when a new 6-meter antenna was added [4].\n\n## Who Designed It\n\nThe Eiffel Tower was designed by a team led by **Gustave Eiffel**, a French civil engineer [7] [8]. However, the actual concept and structural design came from two of Eiffel's engineers — **Maurice Koechlin** and **Émile Nouguier** [9]. The project was then refined architecturally by **Stephen Sauvestre**, who added the decorative arches at the base, a glass pavilion at the first level, and the cupola at the top — embellishments that helped convince Eiffel to back the proposal [9]. Eiffel is widely recognized as the engineer and entrepreneur who brought the tower to completion [7] [8].\n\n---\n\nSource index:\n  [1] The birth of the Eiffel Tower - Official Eiffel Tower Website — https://toureiffel.paris/en/the-monument/history  (official)\n  [2] The Construction of the Eiffel Tower — Google Arts & Culture — https://artsandculture.google.com/story/the-construction-of-the-eiffel-tower-tour-eiffel/UgWBgIpO0RsA8A?hl=en  (official)\n  [3] Eiffel Tower | History, Height, & Facts | Britannica — https://britannica.com/topic/Eiffel-Tower-Paris-France  (official)\n  [4] The Eiffel Tower grows to 330 meters tall! — https://toureiffel.paris/en/news/events/eiffel-tower-grows-330-meters-tall  (official)\n  [5] Eiffel Tower Height: 330m (1,083 ft) – Dimensions, Weight & Fun Facts — https://eiffeltowertravel.com/height-and-facts  (official)\n  [6] How Tall Is the Eiffel Tower? — https://worldatlas.com/articles/how-tall-is-the-eiffel-tower.html  (official)\n  [7] Gustave Eiffel: Biography, Engineer, Designer of Eiffel Tower — https://biography.com/scientists/a45987857/gustave-eiffel  (official)\n  [8] Gustave Eiffel | Iron Tower, Architect, & Bridge Builder | Britannica — https://britannica.com/biography/Gustave-Eiffel  (official)\n  [9] Gustave Eiffel - Wikipedia — https://en.wikipedia.org/wiki/Gustave_Eiffel  (official)",
+  "sources": {
+    "1": "https://toureiffel.paris/en/the-monument/history",
+    "2": "https://artsandculture.google.com/story/the-construction-of-the-eiffel-tower-tour-eiffel/UgWBgIpO0RsA8A?hl=en",
+    "3": "https://britannica.com/topic/Eiffel-Tower-Paris-France",
+    "4": "https://toureiffel.paris/en/news/events/eiffel-tower-grows-330-meters-tall",
+    "5": "https://eiffeltowertravel.com/height-and-facts",
+    "6": "https://worldatlas.com/articles/how-tall-is-the-eiffel-tower.html",
+    "7": "https://biography.com/scientists/a45987857/gustave-eiffel",
+    "8": "https://britannica.com/biography/Gustave-Eiffel",
+    "9": "https://en.wikipedia.org/wiki/Gustave_Eiffel"
+  },
+  "nimble_confidence": "high",
+  "nimble_claims": [
+    {
+      "callout": "1",
+      "confidence": "high",
+      "urls": [
+        "https://toureiffel.paris/en/the-monument/history"
+      ],
+      "excerpts": []
+    },
+    {
+      "callout": "2",
+      "confidence": "high",
+      "urls": [
+        "https://artsandculture.google.com/story/the-construction-of-the-eiffel-tower-tour-eiffel/UgWBgIpO0RsA8A?hl=en"
+      ],
+      "excerpts": []
+    },
+    {
+      "callout": "3",
+      "confidence": "high",
+      "urls": [
+        "https://britannica.com/topic/Eiffel-Tower-Paris-France"
+      ],
+      "excerpts": []
+    },
+    {
+      "callout": "4",
+      "confidence": "high",
+      "urls": [
+        "https://toureiffel.paris/en/news/events/eiffel-tower-grows-330-meters-tall"
+      ],
+      "excerpts": []
+    },
+    {
+      "callout": "5",
+      "confidence": "high",
+      "urls": [
+        "https://eiffeltowertravel.com/height-and-facts"
+      ],
+      "excerpts": []
+    },
+    {
+      "callout": "6",
+      "confidence": "high",
+      "urls": [
+        "https://worldatlas.com/articles/how-tall-is-the-eiffel-tower.html"
+      ],
+      "excerpts": []
+    },
+    {
+      "callout": "7",
+      "confidence": "high",
+      "urls": [
+        "https://biography.com/scientists/a45987857/gustave-eiffel"
+      ],
+      "excerpts": []
+    },
+    {
+      "callout": "8",
+      "confidence": "high",
+      "urls": [
+        "https://britannica.com/biography/Gustave-Eiffel"
+      ],
+      "excerpts": []
+    },
+    {
+      "callout": "9",
+      "confidence": "high",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Gustave_Eiffel"
+      ],
+      "excerpts": []
+    }
+  ]
+}

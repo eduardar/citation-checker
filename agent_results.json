@@ -1,0 +1,265 @@
+[
+  {
+    "claim": "Construction of the Eiffel Tower began on January 26, 1887.",
+    "citations": [
+      "1",
+      "2"
+    ],
+    "sentence": "Construction of the Eiffel Tower began on January 26, 1887, and was completed on March 31, 1889 [1] [2].",
+    "verdict": "partial",
+    "evidence": "Work began in January 26th, 1887 with the digging of the Tower's foundations, which were laid in four months.",
+    "reason": "The source supports that construction began on January 26, 1887, but writes 'January 26th, 1887' with a slight grammatical error.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "Construction of the Eiffel Tower was completed on March 31, 1889.",
+    "citations": [
+      "1",
+      "2"
+    ],
+    "sentence": "Construction of the Eiffel Tower began on January 26, 1887, and was completed on March 31, 1889 [1] [2].",
+    "verdict": "supported",
+    "evidence": "Construction work began in January 1887 and was finished on 31 March 1889.",
+    "reason": "The source explicitly states that construction was finished on March 31, 1889.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "The construction project of the Eiffel Tower took just 2 years, 2 months, and 5 days.",
+    "citations": [
+      "2"
+    ],
+    "sentence": "The project took just 2 years, 2 months, and 5 days [2].",
+    "verdict": "supported",
+    "evidence": "It took just two years, two months and five days to build the Eiffel Tower.",
+    "reason": "The source explicitly states that the construction took just two years, two months, and five days.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "The Eiffel Tower was inaugurated on May 15, 1889.",
+    "citations": [
+      "3",
+      "1"
+    ],
+    "sentence": "It was inaugurated on May 15, 1889, in time for the Exposition Universelle (World's Fair) held in Paris that year, and opened to the public shortly after [3] [1].",
+    "verdict": "unverifiable",
+    "evidence": "",
+    "reason": "Cited page(s) could not be fetched properly",
+    "evidence_verified": false
+  },
+  {
+    "claim": "The Eiffel Tower was inaugurated in time for the Exposition Universelle (World's Fair) held in Paris in 1889.",
+    "citations": [
+      "3",
+      "1"
+    ],
+    "sentence": "It was inaugurated on May 15, 1889, in time for the Exposition Universelle (World's Fair) held in Paris that year, and opened to the public shortly after [3] [1].",
+    "verdict": "unverifiable",
+    "evidence": "",
+    "reason": "Cited page(s) could not be fetched properly",
+    "evidence_verified": false
+  },
+  {
+    "claim": "The Eiffel Tower opened to the public shortly after its inauguration on May 15, 1889.",
+    "citations": [
+      "3",
+      "1"
+    ],
+    "sentence": "It was inaugurated on May 15, 1889, in time for the Exposition Universelle (World's Fair) held in Paris that year, and opened to the public shortly after [3] [1].",
+    "verdict": "unverifiable",
+    "evidence": "",
+    "reason": "Cited page(s) could not be fetched properly",
+    "evidence_verified": false
+  },
+  {
+    "claim": "The Eiffel Tower stands at 330 meters (1,083 feet) tall including its broadcast antenna.",
+    "citations": [
+      "4",
+      "5"
+    ],
+    "sentence": "The Eiffel Tower stands at 330 meters (1,083 feet) tall including its broadcast antenna [4] [5].",
+    "verdict": "supported",
+    "evidence": "The Eiffel Tower stands 330 metres (1,083 feet) tall including its broadcast antenna, making it the tallest structure in Paris and one of the most recognizable landmarks on Earth.",
+    "reason": "The source explicitly states that the Eiffel Tower is 330 meters (1,083 feet) tall including its broadcast antenna.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "The main iron structure of the Eiffel Tower itself is 300 meters tall.",
+    "citations": [
+      "6"
+    ],
+    "sentence": "The main iron structure itself is 300 meters tall, with the broadcast antennas bringing the total to its current height of 330 m [6].",
+    "verdict": "supported",
+    "evidence": "The main structure of the is Eiffel Tower is 300 meters tall, although the height including antennas is 324 meters.",
+    "reason": "The source explicitly states that the main structure of the Eiffel Tower is 300 meters tall.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "Broadcast antennas bring the total height of the Eiffel Tower to its current height of 330 meters.",
+    "citations": [
+      "6"
+    ],
+    "sentence": "The main iron structure itself is 300 meters tall, with the broadcast antennas bringing the total to its current height of 330 m [6].",
+    "verdict": "contradicted",
+    "evidence": "The main structure of the is Eiffel Tower is 300 meters tall, although the height including antennas is 324 meters.",
+    "reason": "The source states that the height including antennas is 324 meters, not 330 meters as claimed.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "The height of 330 meters for the Eiffel Tower was reached on March 15, 2022.",
+    "citations": [
+      "4"
+    ],
+    "sentence": "This 330-meter height was reached on March 15, 2022, when a new 6-meter antenna was added [4].",
+    "verdict": "unverifiable",
+    "evidence": "",
+    "reason": "Cited page(s) could not be fetched properly",
+    "evidence_verified": false
+  },
+  {
+    "claim": "A new 6-meter antenna was added to the Eiffel Tower on March 15, 2022.",
+    "citations": [
+      "4"
+    ],
+    "sentence": "This 330-meter height was reached on March 15, 2022, when a new 6-meter antenna was added [4].",
+    "verdict": "unverifiable",
+    "evidence": "",
+    "reason": "Cited page(s) could not be fetched properly",
+    "evidence_verified": false
+  },
+  {
+    "claim": "The Eiffel Tower was designed by a team led by Gustave Eiffel.",
+    "citations": [
+      "7",
+      "8"
+    ],
+    "sentence": "The Eiffel Tower was designed by a team led by Gustave Eiffel, a French civil engineer [7] [8].",
+    "verdict": "partial",
+    "evidence": "Eiffel is most famous for what would become known as the Eiffel Tower, which was begun in 1887 for the 1889 Universal Exposition in Paris.",
+    "reason": "The source states that Gustave Eiffel is associated with the Eiffel Tower and its construction, but it does not mention a team led by him.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "Gustave Eiffel is a French civil engineer.",
+    "citations": [
+      "7",
+      "8"
+    ],
+    "sentence": "The Eiffel Tower was designed by a team led by Gustave Eiffel, a French civil engineer [7] [8].",
+    "verdict": "supported",
+    "evidence": "Gustave Eiffel (born Dec. 15, 1832, Dijon, France—died Dec. 28, 1923, Paris) was a French civil engineer, entrepreneur, inventor, meteorologist, and aerodynamics researcher, renowned for the tower in Paris that bears his name.",
+    "reason": "The source explicitly states that Gustave Eiffel was a French civil engineer.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "The actual concept and structural design of the Eiffel Tower came from Maurice Koechlin.",
+    "citations": [
+      "9"
+    ],
+    "sentence": "However, the actual concept and structural design came from two of Eiffel's engineers — Maurice Koechlin and Émile Nouguier [9].",
+    "verdict": "supported",
+    "evidence": "The design of the Eiffel Tower was originated by Maurice Koechlin and Emile Nouguier, who had discussed ideas for a centrepiece for the 1889 Exposition Universelle.",
+    "reason": "The source explicitly states that the design of the Eiffel Tower originated with Maurice Koechlin and Emile Nouguier.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "The actual concept and structural design of the Eiffel Tower came from Émile Nouguier.",
+    "citations": [
+      "9"
+    ],
+    "sentence": "However, the actual concept and structural design came from two of Eiffel's engineers — Maurice Koechlin and Émile Nouguier [9].",
+    "verdict": "supported",
+    "evidence": "The design of the Eiffel Tower was originated by Maurice Koechlin and Emile Nouguier, who had discussed ideas for a centrepiece for the 1889 Exposition Universelle.",
+    "reason": "The source explicitly states that the design of the Eiffel Tower originated with Maurice Koechlin and Émile Nouguier.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "Maurice Koechlin and Émile Nouguier were two of Eiffel's engineers.",
+    "citations": [
+      "9"
+    ],
+    "sentence": "However, the actual concept and structural design came from two of Eiffel's engineers — Maurice Koechlin and Émile Nouguier [9].",
+    "verdict": "supported",
+    "evidence": "To assist him in the work he took on several people who were to play important roles in the design and construction of the Eiffel Tower, including Maurice Koechlin, a young graduate of the Zurich Polytechnikum, who was engaged to undertake calculations and make drawings, and Émile Nouguier, who had previously worked for Eiffel on the construction of the Douro bridge.",
+    "reason": "The source explicitly states that Maurice Koechlin and Émile Nouguier were engineers who worked for Eiffel.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "The Eiffel Tower project was refined architecturally by Stephen Sauvestre.",
+    "citations": [
+      "9"
+    ],
+    "sentence": "The project was then refined architecturally by Stephen Sauvestre, who added the decorative arches at the base, a glass pavilion at the first level, and the cupola at the top — embellishments that helped convince Eiffel to back the proposal [9].",
+    "verdict": "supported",
+    "evidence": "Initially Eiffel showed little enthusiasm, although he did sanction further study of the project, and the two engineers then asked Stephen Sauvestre to add architectural embellishments.",
+    "reason": "The source explicitly states that Stephen Sauvestre was asked to add architectural embellishments (refining the project architecturally) to the design.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "Stephen Sauvestre added decorative arches at the base of the Eiffel Tower.",
+    "citations": [
+      "9"
+    ],
+    "sentence": "The project was then refined architecturally by Stephen Sauvestre, who added the decorative arches at the base, a glass pavilion at the first level, and the cupola at the top — embellishments that helped convince Eiffel to back the proposal [9].",
+    "verdict": "supported",
+    "evidence": "Sauvestre added the decorative arches to the base, a glass pavilion to the first level and the cupola at the top.",
+    "reason": "The source explicitly states that Stephen Sauvestre added the decorative arches to the base of the tower.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "Stephen Sauvestre added a glass pavilion at the first level of the Eiffel Tower.",
+    "citations": [
+      "9"
+    ],
+    "sentence": "The project was then refined architecturally by Stephen Sauvestre, who added the decorative arches at the base, a glass pavilion at the first level, and the cupola at the top — embellishments that helped convince Eiffel to back the proposal [9].",
+    "verdict": "supported",
+    "evidence": "Sauvestre added the decorative arches to the base, a glass pavilion to the first level and the cupola at the top.",
+    "reason": "The source explicitly states that Stephen Sauvestre added a glass pavilion at the first level of the Eiffel Tower.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "Stephen Sauvestre added a cupola at the top of the Eiffel Tower.",
+    "citations": [
+      "9"
+    ],
+    "sentence": "The project was then refined architecturally by Stephen Sauvestre, who added the decorative arches at the base, a glass pavilion at the first level, and the cupola at the top — embellishments that helped convince Eiffel to back the proposal [9].",
+    "verdict": "supported",
+    "evidence": "Sauvestre added the decorative arches to the base, a glass pavilion to the first level and the cupola at the top.",
+    "reason": "The source explicitly states that Stephen Sauvestre added the cupola at the top of the Eiffel Tower.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "Embellishments added by Stephen Sauvestre helped convince Gustave Eiffel to back the Eiffel Tower proposal.",
+    "citations": [
+      "9"
+    ],
+    "sentence": "The project was then refined architecturally by Stephen Sauvestre, who added the decorative arches at the base, a glass pavilion at the first level, and the cupola at the top — embellishments that helped convince Eiffel to back the proposal [9].",
+    "verdict": "supported",
+    "evidence": "Initially Eiffel showed little enthusiasm, although he did sanction further study of the project, and the two engineers then asked Stephen Sauvestre to add architectural embellishments. Sauvestre added the decorative arches to the base, a glass pavilion to the first level and the cupola at the top. The enhanced idea gained Eiffel's support for the project...",
+    "reason": "The source explicitly states that Stephen Sauvestre added architectural embellishments to the tower design, which then gained Gustave Eiffel's support for the project.",
+    "evidence_verified": false
+  },
+  {
+    "claim": "Gustave Eiffel is widely recognized as the engineer who brought the Eiffel Tower to completion.",
+    "citations": [
+      "7",
+      "8"
+    ],
+    "sentence": "Eiffel is widely recognized as the engineer and entrepreneur who brought the tower to completion [7] [8].",
+    "verdict": "supported",
+    "evidence": "Gustave Eiffel (born Dec. 15, 1832, Dijon, France—died Dec. 28, 1923, Paris) was a French civil engineer, entrepreneur, inventor, meteorologist, and aerodynamics researcher, renowned for the tower in Paris that bears his name.",
+    "reason": "The source explicitly states that Gustave Eiffel is a civil engineer renowned for the tower in Paris that bears his name.",
+    "evidence_verified": true
+  },
+  {
+    "claim": "Gustave Eiffel is widely recognized as the entrepreneur who brought the Eiffel Tower to completion.",
+    "citations": [
+      "7",
+      "8"
+    ],
+    "sentence": "Eiffel is widely recognized as the engineer and entrepreneur who brought the tower to completion [7] [8].",
+    "verdict": "supported",
+    "evidence": "Gustave Eiffel (born Dec. 15, 1832, Dijon, France—died Dec. 28, 1923, Paris) was a French civil engineer, entrepreneur, inventor, meteorologist, and aerodynamics researcher, renowned for the tower in Paris that bears his name.",
+    "reason": "The source identifies Eiffel as an entrepreneur and confirms he is renowned for bringing the tower in Paris (the Eiffel Tower) to completion.",
+    "evidence_verified": true
+  }
+]

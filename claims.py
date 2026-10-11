@@ -15,4 +15,10 @@ Answer:
 {answer}"""
 
 def split_claims(answer: str) -> list[dict]:
-    return ask_json(PROMPT.format(answer=answer))
+    claims, seen = [], set()
+    for c in ask_json(PROMPT.format(answer=answer)):
+        key = c["claim"].strip().lower()
+        if key not in seen:
+            seen.add(key)
+            claims.append(c)
+    return claims
