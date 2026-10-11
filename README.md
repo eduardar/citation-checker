@@ -110,7 +110,9 @@ So on this run, the judge never approved a claim it shouldn't have; its failures
 
 The coherence check flagged 3 verdicts; 2 were real errors ("French civil engineer", "1,710 steps") and 1 was a false flag. It missed the "1,083 feet" error, whose reasoning was internally consistent. On the 5 verdicts it reviewed, its suggested labels matched mine 3 times, versus 2 for the judge: a useful review signal, not a replacement for human labels.
 
-**Caveats:** one annotator, 15 claims. Two of my labels were revised after re-reading the pages, and one of those after seeing the checker's suggestion, which risks anchoring; a cleaner protocol fixes human labels before looking at any model output. This is a pilot, not a benchmark. `labels.csv`, `score_labels.py` and `compare_checker.py` are in the repo.
+**Caveats:** one annotator, 15 claims. Two of my labels were revised after re-reading the pages, and one of those after seeing the checker's suggestion, which risks anchoring; a cleaner protocol fixes human labels before looking at any model output. This is a pilot, not a benchmark. `la`
+
+`bels.csv`, `score_labels.py` and `compare_checker.py` are in the repo.
 
 ### Engineering notes
 
@@ -142,6 +144,7 @@ Create a `.env` file:
 ```
 GEMINI_API_KEY=...
 NIMBLE_API_KEY=...
+ANTHROPIC_API_KEY=...   # used by the coherence checker (Claude)
 ```
 
 Then:
