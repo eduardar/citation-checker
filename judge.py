@@ -1,4 +1,4 @@
-from llm import ask_json
+from llm import ask_json, FAST_MODEL
 
 PROMPT = """You check whether a SOURCE supports a CLAIM.
 Use ONLY the source text. Never use your own knowledge, even if you know the answer.
@@ -16,8 +16,8 @@ CLAIM: {claim}
 SOURCE:
 {source}"""
 
-def judge(claim: str, source_text: str, prompt: str = PROMPT) -> dict:
-    result = ask_json(prompt.format(claim=claim, source=source_text))
+def judge(claim: str, source_text: str, prompt: str = PROMPT, model: str = FAST_MODEL) -> dict:
+    result = ask_json(prompt.format(claim=claim, source=source_text), model=model)
     ev = (result.get("evidence") or "").strip()
     result["evidence_verified"] = bool(ev) and ev in source_text
     return result

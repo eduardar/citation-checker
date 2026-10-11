@@ -1,0 +1,7 @@
+claim,base,base_repeat,reworded,reason_first,base_smart,stable
+The Eiffel Tower was completed in 1889.,supported,supported,supported,supported,supported,True
+The Eiffel Tower was completed as the entrance arch to the 1889 World's Fair in Paris.,supported,supported,supported,supported,partial,False
+The Eiffel Tower is 450 metres tall.,contradicted,contradicted,contradicted,contradicted,contradicted,True
+The Eiffel Tower was designed by Gustave Eiffel himself.,contradicted,contradicted,contradicted,contradicted,contradicted,True
+The 1889 World's Fair marked the 100th anniversary of the storming of the Bastille.,supported,supported,supported,supported,error,False
+The 1889 World's Fair attracted about 5 million visitors.,contradicted,contradicted,contradicted,contradicted,contradicted,True
