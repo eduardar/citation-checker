@@ -214,7 +214,9 @@
       "verdict": "contradicted",
       "evidence": "Today, it measures 330 meters (1,082 feet) thanks to a series of broadcast antennas tacked on over the years.",
       "reason": "The source states that the Eiffel Tower measures 1,082 feet today, not 1,083 feet.",
-      "evidence_verified": true
+      "evidence_verified": true,
+      "coherent": true,
+      "implied_verdict": "contradicted"
     },
     {
       "claim": "Broadcast antennas have been added to the Eiffel Tower over the years.",
@@ -238,7 +240,9 @@
       "verdict": "partial",
       "evidence": "Soon thereafter, he began work on what would become known as the Eiffel Tower, the structure that would cement his name in history.",
       "reason": "The source states that Eiffel began work on the tower, but it does not explicitly state that he both designed and built it entirely by himself.",
-      "evidence_verified": true
+      "evidence_verified": true,
+      "coherent": true,
+      "implied_verdict": "partial"
     },
     {
       "claim": "Gustave Eiffel is a French civil engineer.",
@@ -250,7 +254,9 @@
       "verdict": "partial",
       "evidence": "In 1879, the chief engineer on the Statue of Liberty died and Eiffel was hired to replace him, going on to design the metallic skeleton of the structure.",
       "reason": "The source mentions Eiffel acting as an engineer and working on structures, but it does not explicitly state that his profession or nationality is a \"French civil engineer\" (though it mentions he was born in France and worked as an engineer).",
-      "evidence_verified": true
+      "evidence_verified": true,
+      "coherent": false,
+      "implied_verdict": "supported"
     },
     {
       "claim": "Gustave Eiffel's company designed and constructed the Eiffel Tower.",
@@ -262,7 +268,9 @@
       "verdict": "partial",
       "evidence": "Soon thereafter, he began work on what would become known as the Eiffel Tower, the structure that would cement his name in history.",
       "reason": "The source states that Eiffel began work on the tower, but it does not explicitly mention his company designing and constructing it.",
-      "evidence_verified": true
+      "evidence_verified": true,
+      "coherent": false,
+      "implied_verdict": "not_found"
     },
     {
       "claim": "The Eiffel Tower was named in honor of Gustave Eiffel.",
@@ -296,7 +304,9 @@
       "verdict": "contradicted",
       "evidence": "nearly 30,000 visitors made the 1,710-step climb to the top before the lifts entered service on 26 May.",
       "reason": "The source states that visitors made the 1,710-step climb before the lifts entered service, while Gustave Eiffel climbed the tower on the day of its completion (31 March 1889) because the lifts were not yet in operation.",
-      "evidence_verified": true
+      "evidence_verified": true,
+      "coherent": false,
+      "implied_verdict": "supported"
     },
     {
       "claim": "The lifts of the Eiffel Tower were not yet operational on the day of completion.",

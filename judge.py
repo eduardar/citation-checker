@@ -16,6 +16,25 @@ CLAIM: {claim}
 SOURCE:
 {source}"""
 
+COHERENCE_PROMPT = """A fact-checking judge gave a VERDICT and a REASON for a CLAIM.
+Does the REASON actually justify the VERDICT?
+Verdict options: "supported", "partial", "contradicted", "not_found".
+
+Return JSON: {{"consistent": true or false, "implied_verdict": "the verdict the REASON actually supports"}}
+
+CLAIM: {claim}
+VERDICT: {verdict}
+REASON: {reason}"""
+
+def check_coherence(r: dict) -> dict:
+    if r["verdict"] in ("supported", "unverifiable", "no_citation"):
+        return r
+    out = ask_json(COHERENCE_PROMPT.format(claim=r["claim"], verdict=r["verdict"],
+                                           reason=r.get("reason", "")))
+    r["coherent"] = bool(out.get("consistent", True))
+    r["implied_verdict"] = out.get("implied_verdict", r["verdict"])
+    return r
+
 def judge(claim: str, source_text: str, prompt: str = PROMPT, model: str = FAST_MODEL) -> dict:
     result = ask_json(prompt.format(claim=claim, source=source_text), model=model)
     ev = (result.get("evidence") or "").strip()

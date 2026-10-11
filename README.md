@@ -45,7 +45,8 @@ Notable cases:
 ### 3. The judge itself is unreliable in specific ways
 - **Too lenient:** "the tower was the *entrance arch* of the fair" was `supported` by a sentence saying it was the *centrepiece*.
 - **Too literal:** "1,083 feet" was `contradicted` because the source says 1,082 feet, a unit-conversion rounding difference (330 m ≈ 1,082.7 ft).
-- **Verdict contradicts its own reasoning:** "Eiffel climbed the 1,710 steps on the day of completion" was labeled `contradicted`, while the judge's explanation says Eiffel did climb on foot that day. `partial` would be the right label, since the source gives the 1,710 steps for visitors.
+- **Verdict contradicts its own reasoning:** "Eiffel climbed the 1,710 steps on the day of completion" was labeled `contradicted`, while the judge's explanation says Eiffel did climb on foot that day. I'd label it `partial`, since the source gives the 1,710 steps for visitors.
+- **Coherence check:** a second LLM pass compares each negative verdict with the judge's own reasoning. On the saved run it flagged 3 of 5 negative verdicts, including the "1,710 steps" case (it suggested `supported`). Because the checker is an LLM too, flags mean "needs human review", not ground truth.
 
 ![Verdict inconsistent with its own reasoning](images/judge_inconsistency.png)
 

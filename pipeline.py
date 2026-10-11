@@ -1,7 +1,7 @@
 from concurrent.futures import ThreadPoolExecutor
 from claims import split_claims
 from fetch import fetch_text
-from judge import judge
+from judge import judge, check_coherence
 
 MIN_CHARS = 500
 
@@ -25,7 +25,7 @@ def _judge_one(c, texts, bad):
         return {**c, "verdict": "unverifiable", "evidence": "",
                 "reason": "Cited page(s) could not be fetched properly", "evidence_verified": False}
     src = "\n\n".join(texts[n] for n in good)
-    r = {**c, **judge(c["claim"], src)}
+    r = check_coherence({**c, **judge(c["claim"], src)})
     if r["verdict"] == "not_found" and len(good) < len(cited):
         r["verdict"] = "unverifiable"  # some cited pages were unreadable: don't blame the source
         r["reason"] += " (some cited pages could not be fetched)"
