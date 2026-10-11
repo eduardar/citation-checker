@@ -9,7 +9,7 @@ COLORS = {"supported": "green", "partial": "orange", "contradicted": "red", "not
 
 st.set_page_config(page_title="Citation Checker", page_icon="🔎")
 st.title("🔎 Citation Checker")
-st.caption("Does each cited source actually support the claim? Live pages via Nimble, judged by Gemini.")
+st.caption("Does each cited source actually support the claim? Live pages via Nimble, judged by Gemini, double-checked by Claude.")
 
 def show(results, nimble_conf=None):
     verifiable = [r for r in results if r["verdict"] not in ("unverifiable", "no_citation")]

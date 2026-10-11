@@ -16,7 +16,7 @@ Built solo in one day at the AI Engineer NYC Hackathon (October 11, 2026).
 2. **Fetch**: Nimble Extract fetches the live text of each cited page (with JavaScript rendering), cleaned with `trafilatura` and cached locally.
 3. **Split**: Gemini breaks the answer into atomic, self-contained claims, keeping each claim's citation numbers and qualifiers ("himself", "only", "about").
 4. **Judge**: Gemini labels each claim against its cited source, using only the source text, and quotes the sentence it relied on.
-5. **Verify the judge**: code checks that the quoted evidence actually appears in the source, and a second LLM pass checks that each negative verdict matches the judge's own reasoning. Pages that could not be fetched properly (too short, or identical text returned for different URLs) are marked `unverifiable` instead of blaming the source.
+5. **Check the judge**: code verifies that the quoted evidence actually appears in the source, and **Claude**, a model from a different family, checks that each negative verdict matches the judge's own reasoning. Pages that could not be fetched properly (too short, or identical text returned for different URLs) are marked `unverifiable` instead of blaming the source.
 
 The Streamlit app has three modes: ask a Nimble agent and audit its answer live, check a pasted answer, or replay a saved run.
 
@@ -33,9 +33,9 @@ Every label is about **the cited page**, not about the real world. A claim can b
 | `unverifiable` | The page could not be fetched properly, so the claim could not be checked |
 | `no_citation`  | The claim has no citation at all                                          |
 
-**Labeling standard:** the same fact in different words counts as `supported` ("centerpiece" vs. "main attraction"); a different fact does not ("entrance arch" vs. "centrepiece"). Minor rounding in unit conversions (1,082 vs. 1,083 feet) counts as `supported`. When a page contains the pieces of a claim but never connects them, the claim is `partial`.
+**Labeling standard:** the same fact in different words counts as `supported` ("centerpiece" vs. "main attraction"); a different fact does not ("entrance arch" vs. "centrepiece"). Minor rounding in unit conversions (1,082 vs. 1,083 feet) counts as `supported`. A claim that follows directly from what the page says counts as `supported` (the climb to the top is 1,710 steps, and Eiffel climbed to the top). When a page contains the pieces of a claim but only plausibly links them, the claim is `partial` (Eiffel had a company, and Eiffel worked on the tower, but the page never says the company built it).
 
-**Coherence flag:** a second LLM pass checks whether the judge's label matches its own reasoning. It only runs on negative verdicts, to save API calls.
+**Coherence flag:** a second LLM pass (Claude) checks whether the judge's label matches its own reasoning. It only runs on negative verdicts, to save API calls.
 
 | Flag            | Meaning                                                                                  |
 | --------------- | ---------------------------------------------------------------------------------------- |
@@ -74,10 +74,9 @@ Notable cases:
 
 - **Too lenient:** "the tower was the *entrance arch* of the fair" was `supported` by a sentence saying it was the *centrepiece*.
 - **Too literal:** "1,083 feet" was `contradicted` because the source says 1,082 feet, a unit-conversion rounding difference (330 m ≈ 1,082.7 ft).
-- **Verdict contradicts its own reasoning:** "Eiffel climbed the 1,710 steps on the day of completion" was labeled `contradicted`, while the judge's explanation says Eiffel did climb on foot that day.
-- **Coherence check:** a second LLM pass compares each negative verdict with the judge's own reasoning. On the saved run it flagged 3 of 5 negative verdicts, including the "1,710 steps" case. Because the checker is an LLM too, flags mean "needs human review", not ground truth (see section 5).
+- **Verdict contradicts its own reasoning:** "Eiffel climbed the 1,710 steps on the day of completion" was labeled `contradicted`, while the judge's explanation says Eiffel did climb on foot that day. The coherence check flags it for review.
 
-![Verdict inconsistent with its own reasoning](images/judge_inconsistency.png)
+![Verdict flagged for review](images/judge_inconsistency.png)
 
 ### 4. Judge stability (small pilot)
 
@@ -108,13 +107,22 @@ I labeled the 15 verifiable claims of the saved agent run myself, using the stan
 
 So on this run, the judge never approved a claim it shouldn't have; its failures were all false alarms. That points to a concrete fix: a second opinion before any negative verdict is shown.
 
-The coherence check flagged 3 verdicts; 2 were real errors ("French civil engineer", "1,710 steps") and 1 was a false flag. It missed the "1,083 feet" error, whose reasoning was internally consistent. On the 5 verdicts it reviewed, its suggested labels matched mine 3 times, versus 2 for the judge: a useful review signal, not a replacement for human labels.
+### 6. Checking the judge with a different model family
 
-**Caveats:** one annotator, 15 claims. Two of my labels were revised after re-reading the pages, and one of those after seeing the checker's suggestion, which risks anchoring; a cleaner protocol fixes human labels before looking at any model output. This is a pilot, not a benchmark. `la`
+The coherence check was first run with Gemini, the same model family as the judge. It flagged 3 verdicts: 2 real errors and 1 false flag. Because a same-family checker can share the judge's blind spots, I re-ran it with **Claude (`claude-haiku-5-5`)**:
 
-`bels.csv`, `score_labels.py` and `compare_checker.py` are in the repo.
+|                                                      | Gemini checker | Claude checker   |
+| ---------------------------------------------------- | -------------- | ---------------- |
+| Verdicts flagged                                     | 3              | 2                |
+| Flags that were real judge errors                    | 2              | **2**      |
+| False flags                                          | 1              | **0**      |
+| Suggested labels matching mine (5 reviewed verdicts) | 3 of 5         | **4 of 5** |
 
-### Engineering notes
+For comparison, the judge's own labels matched mine on 2 of those 5. Neither checker caught the over-strict "1,083 feet" verdict, whose reasoning was internally consistent. Small sample, but it supports using a different model family to check a judge, as a review signal rather than a replacement for human labels.
+
+**Caveats:** one annotator, 15 claims. Two of my labels were revised after re-reading the pages, and one of those after seeing the Gemini checker's suggestion, which risks anchoring; a cleaner protocol fixes human labels before looking at any model output. This is a pilot, not a benchmark. `labels.csv`, `score_labels.py` and `compare_checker.py` are in the repo.
+
+## Engineering notes
 
 - Gemini free tier: 15 requests/minute on the fast model and 20/day on the stronger one, plus 503/504 errors under load. Handled with retries and backoff, a 3-minute timeout, page caching, and the fast model as the default.
 - Every live run is saved (`last_run.json`), and a protected demo run (`demo_run.json`) can be replayed instantly.
@@ -127,7 +135,8 @@ Nimble's cookbook [Fact-check documents with LiteLLM and Nimble](https://www.nim
 ## Next steps
 
 - More answers and more annotators, to measure judge accuracy with confidence intervals and inter-annotator agreement.
-- Reduce false contradictions: a rounding-tolerance rule for numbers, and a second opinion before any `contradicted` verdict.
+- Reduce false contradictions: a rounding-tolerance rule for numbers, and a cross-family second opinion before any negative verdict is shown.
+- Compare full judges across model families, not just checkers.
 - Trim each page to the passage relevant to the claim (fewer tokens, fewer rate-limit hits).
 - Audit Nimble's verbatim excerpts at higher effort levels.
 
@@ -153,14 +162,16 @@ Then:
 streamlit run app.py
 ```
 
-| File                                                      | What it does                                                                                               |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `app.py`                                                | Streamlit interface (live agent audit, pasted answer, saved run)                                           |
-| `nimble_agent.py`                                       | Runs a Nimble Web Search Agent and returns answer, sources and confidence                                  |
-| `fetch.py`                                              | Fetches cited pages with Nimble Extract, with a cache and a fallback                                       |
-| `claims.py`                                             | Splits an answer into atomic claims                                                                        |
-| `judge.py`                                              | Labels each claim against its source, verifies the quoted evidence, and checks verdict-reasoning coherence |
-| `pipeline.py`                                           | Runs the full check, flagging unreadable sources                                                           |
-| `stability.py`, `prompts.py`                          | Judge stability analysis across prompts and models                                                         |
-| `audit_agent.py`                                        | Compares our verdicts with Nimble's confidence for a saved agent run                                       |
-| `export_labels.py`, `score_labels.py`, `labels.csv` | Human labels and judge accuracy                                                                            |
+| File                                                                              | What it does                                                                                                                 |
+| --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `app.py`                                                                        | Streamlit interface (live agent audit, pasted answer, saved run)                                                             |
+| `nimble_agent.py`                                                               | Runs a Nimble Web Search Agent and returns answer, sources and confidence                                                    |
+| `fetch.py`                                                                      | Fetches cited pages with Nimble Extract, with a cache and a fallback                                                         |
+| `claims.py`                                                                     | Splits an answer into atomic claims (Gemini)                                                                                 |
+| `judge.py`                                                                      | Labels each claim against its source (Gemini), verifies the quoted evidence, and checks verdict-reasoning coherence (Claude) |
+| `llm.py`                                                                        | Gemini and Claude clients, with retries and timeouts                                                                         |
+| `pipeline.py`                                                                   | Runs the full check, flagging unreadable sources                                                                             |
+| `stability.py`, `prompts.py`                                                  | Judge stability analysis across prompts and models                                                                           |
+| `audit_agent.py`                                                                | Compares our verdicts with Nimble's confidence for a saved agent run                                                         |
+| `add_coherence.py`                                                              | Runs the coherence check on a saved run                                                                                      |
+| `export_labels.py`, `score_labels.py`, `compare_checker.py`, `labels.csv` | Human labels, judge accuracy, and checker comparison                                                                         |
